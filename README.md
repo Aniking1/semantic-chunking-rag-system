@@ -1,9 +1,3 @@
-pip install -r requirements.txt
-uvicorn main:app
-
-Then open: 
-http://localhost:8000/docs
-
 # Semantic Chunking RAG System
 
 ## Overview
@@ -240,3 +234,7 @@ AI for Developers Track – KodeCamp 5x
 ## License
 
 This project is for educational purposes as part of the KodeCamp AI for Developers program.
+=======
+# semantic-chunking-rag-system
+This project implements a RAG system that allows users to upload documents and ask questions about them using NLP. The system processes uploaded documents by performing semantic chunking, generating vector embeddings, storing them in a vector database, and retrieving relevant information to answer user queries using a large language model.
+>>>>>>> 5eb8809854e895e53a65667d4285859be0a5caff

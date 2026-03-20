@@ -73,7 +73,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], all
 embed_model = SentenceTransformer(EMBED_MODEL_NAME)
 
 # LLM model
-genai.configure(api_key="AIzaSyCcLuKnqqloH5E4xstDyvhXnyxKW7x0ACc")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 llm_model = genai.GenerativeModel(LLM_MODEL_NAME)
 
 
